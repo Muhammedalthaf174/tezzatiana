@@ -2397,7 +2397,6 @@ def fed_user_help(update: Update, context: CallbackContext):
 __mod_name__ = "ғᴇᴅᴇʀᴀᴛɪᴏɴs"
 
 
-
 NEW_FED_HANDLER = CommandHandler("newfed", new_fed)
 DEL_FED_HANDLER = CommandHandler("delfed", del_fed)
 RENAME_FED = CommandHandler("renamefed", rename_fed)
