@@ -198,6 +198,5 @@ __help__ = """
   💡If you disable fsub, you need to set again for working.. /fsub {channel username} 
  ❍ /fsub clear - To unmute all members who muted by me.
 """
-
 __mod_name__ = "ғ-sᴜʙ/ғᴇᴅs"
 
