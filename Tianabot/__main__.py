@@ -413,8 +413,8 @@ Cʟɪᴄᴋ  Bᴇʟᴏᴡ  Bᴜᴛᴛᴏɴ  Tᴏ  Aᴅᴅ  Bᴏᴛ  Iɴ  Yᴏᴜ
 
 Bᴇғᴏʀᴇ  Wᴇ  Gᴏ,  I  Nᴇᴇᴅ  Aᴅᴍɪɴ  Pᴇʀᴍɪssɪᴏɴs  Iɴ  Tʜɪs  Cʜᴀᴛ  Tᴏ  Wᴏʀᴋ  Pʀᴏᴘᴇʀʟʏ.
 1). Cʟɪᴄᴋ  Mᴀɴᴀɢᴇ  Gʀᴏᴜᴘ.
-2). Gᴏ  Tᴏ  Aᴅᴍɪɴɪsᴛʀᴀᴛᴏʀs  Aɴᴅ  Aᴅᴅ</b>  {BOT_USERNAME}  <b>As  Aᴅᴍɪɴ.
-3). Gɪᴠɪɴɢ  Fᴜʟʟ  Pᴇʀᴍɪssɪᴏɴs  Mᴀᴋᴇ  Tɪᴀɴᴀ  Fᴜʟʟʏ  Usᴇғᴜʟ</b>""",
+2). Gᴏ  Tᴏ  Aᴅᴍɪɴɪsᴛʀᴀᴛᴏʀs  Aɴᴅ  Aᴅᴅ @Tezza_Robot As  Aᴅᴍɪɴ.
+3). Gɪᴠɪɴɢ  Fᴜʟʟ  Pᴇʀᴍɪssɪᴏɴs  Mᴀᴋᴇ  Tᴇᴢᴢᴀ  Fᴜʟʟʏ  Usᴇғᴜʟ</b>""",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
               [[InlineKeyboardButton(text="⬅️", callback_data="tiana_help"),
@@ -426,7 +426,7 @@ Bᴇғᴏʀᴇ  Wᴇ  Gᴏ,  I  Nᴇᴇᴅ  Aᴅᴍɪɴ  Pᴇʀᴍɪssɪᴏɴs  
         query.message.edit_text(
             text="""*Cᴏɴɢʀᴀɢᴜʟᴀᴛɪᴏɴs,  Tʜɪꜱ  Bᴏᴛ  Nᴏᴡ  Rᴇᴀᴅʏ  Tᴏ  Mᴀɴᴀɢᴇ  Yᴏᴜʀ  Gʀᴏᴜᴘ
 
-Hᴇʀᴇ  Aʀᴇ  Sᴏᴍᴇ  Essᴇɴᴛɪᴀʟᴛ  Tᴏ  Tʀʏ  Oɴ Tɪᴀɴᴀ.
+Hᴇʀᴇ  Aʀᴇ  Sᴏᴍᴇ  Essᴇɴᴛɪᴀʟᴛ  Tᴏ  Tʀʏ  Oɴ Tᴇᴢᴢᴀ.
 
 ×  Aᴅᴍɪɴ  Tᴏᴏʟs
 ʙᴀsɪᴄ  ᴀᴅᴍɪɴ  ᴛᴏᴏʟs  ʜᴇʟᴘ  ʏᴏᴜ  ᴛᴏ  ᴘʀᴏᴛᴇᴄᴛ  ᴀɴᴅ  ᴘᴏᴡᴇʀᴜᴘ  ʏᴏᴜʀ  ɢʀᴏᴜᴘ
@@ -456,7 +456,7 @@ Rᴇғᴇʀ  Hᴇʟᴘ  Mᴇɴᴜ  Tᴏ  Sᴇᴇ  Eᴠᴇʀʏᴛʜɪɴɢ  Iɴ  D
 
 × Aɪ  CʜᴀᴛBᴏᴛ
 ᴡᴀɴᴛ  sᴏᴍᴇᴏɴᴇ  ᴛᴏ  ᴄʜᴀᴛ  ɪɴ  ɢʀᴏᴜᴘ?
-Tɪᴀɴᴀ  ʜᴀs  ᴀɴ  ɪɴᴛᴇʟʟɪɢᴇɴᴛ  ᴄʜᴀᴛʙᴏᴛ  ᴡɪᴛʜ  ᴍᴜʟᴛɪʟᴀɴɢ  sᴜᴘᴘᴏʀᴛ
+Tᴇᴢᴢᴀ  ʜᴀs  ᴀɴ  ɪɴᴛᴇʟʟɪɢᴇɴᴛ  ᴄʜᴀᴛʙᴏᴛ  ᴡɪᴛʜ  ᴍᴜʟᴛɪʟᴀɴɢ  sᴜᴘᴘᴏʀᴛ
 ʟᴇᴛ's  ᴛʀʏ  ɪᴛ,
 Sᴇɴᴅ  /chatbot  Oɴ  Aɴᴅ  Rᴇᴘʟʏ  Tᴏ  Aɴʏ  Oғ  Mʏ  Mᴇssᴀɢᴇs  Tᴏ  Sᴇᴇ  Tʜᴇ  Mᴀɢɪᴄ*""",
             parse_mode=ParseMode.MARKDOWN,
@@ -556,7 +556,7 @@ Aɢᴀɪɴ  Tʜᴀɴᴋs  Fᴏʀ  Usɪɴɢ  Mᴇ
         query.message.edit_text(
             text="""✗*Here is the help for Play Commands*:
 
-*Note*: Tiana Music Bot works on a single merged commands for Music and Video
+*Note*: Tezza Music Bot works on a single merged commands for Music and Video
 
 ✗ *Youtube and Telegram Files*:
 
@@ -564,10 +564,10 @@ Aɢᴀɪɴ  Tʜᴀɴᴋs  Fᴏʀ  Usɪɴɢ  Mᴇ
 - Stream Video or Music on Voice Chat by selecting inline Buttons you get
 
 
-✗ *Tiana Database Saved Playlists*:
+✗ *Tezza Database Saved Playlists*:
 
 /createplaylist
-- Create Your Playlist on Tiana's Server with Custom Name
+- Create Your Playlist on Tezza's Server with Custom Name
 
 /playlist 
 - Check Your Saved Playlist On Servers.
@@ -576,7 +576,7 @@ Aɢᴀɪɴ  Tʜᴀɴᴋs  Fᴏʀ  Usɪɴɢ  Mᴇ
 - Delete any saved music in your playlist
 
 /playplaylist 
-- Start playing Your Saved Playlist on Tiana Servers.""",
+- Start playing Your Saved Playlist on Tezza Servers.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -605,7 +605,7 @@ Aɢᴀɪɴ  Tʜᴀɴᴋs  Fᴏʀ  Usɪɴɢ  Mᴇ
 
 ✗ *Authorised Users List*:
 
-Tiana has a additional feature for non-admin users who want to use admin commands
+Tezza has a additional feature for non-admin users who want to use admin commands
 -Auth users can skip, pause, stop, resume Voice Chats even without Admin Rights.
 
 
@@ -629,7 +629,7 @@ Tiana has a additional feature for non-admin users who want to use admin command
 
 
 /start 
-- Start the Tiana Music Bot.
+- Start the Tezza Music Bot.
 
 /help 
 - Get Commands Helper Menu with detailed explanations of commands.
@@ -638,7 +638,7 @@ Tiana has a additional feature for non-admin users who want to use admin command
 - Get Settings dashboard of a group. You can manage Auth Users Mode. Commands Mode from here.
 
 /ping
-- Ping the Bot and check Ram, Cpu etc stats of Tiana.""",
+- Ping the Bot and check Ram, Cpu etc stats of Tezza.""",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="tiana_music")]]
@@ -654,16 +654,16 @@ Tiana has a additional feature for non-admin users who want to use admin command
 - Searches Lyrics for the particular Music on web.
 
 /sudolist 
-- Check Sudo Users of Tiana Music Bot
+- Check Sudo Users of Tezza Music Bot
 
 /song [Track Name] or [YT Link]
-- Download any track from youtube in mp3 or mp4 formats via Tiana.
+- Download any track from youtube in mp3 or mp4 formats via Tezza.
 
 /queue
 - Check Queue List of Music.
 
 /cleanmode [Enable|Disable]
-- When enabled, Tiana will be deleting her 3rd last message to keep your chat clean.""",
+- When enabled, Tezza will be deleting her 3rd last message to keep your chat clean.""",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="tiana_music")]]
@@ -717,7 +717,7 @@ Support
         )
     elif query.data == "tiana_source":
         query.message.edit_text(
-            text="""*Tianabot is Now Open Source Bot Project.*
+            text="""*Tezza is Now Open Source Bot Project.*
 
 *Click below Button to Get Source Code.*""",
             parse_mode=ParseMode.MARKDOWN,
