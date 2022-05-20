@@ -535,7 +535,7 @@ Aɢᴀɪɴ  Tʜᴀɴᴋs  Fᴏʀ  Usɪɴɢ  Mᴇ
             
 2.) then promote me as admin and give all permissions except anonymous admin.
             
-3.) add Assistant to your group using /userbotjoin.
+3.) add @Mehaboobamusic to your group.
             
 4.) turn on the video chat first before start to play music.
             
@@ -554,7 +554,7 @@ Aɢᴀɪɴ  Tʜᴀɴᴋs  Fᴏʀ  Usɪɴɢ  Mᴇ
         )
     elif query.data == "tiana_musica":
         query.message.edit_text(
-            text="""✗*Here is the help for Play Commands*:
+            text="""✗ *Here is the help for Play Commands*:
 
 *Note*: Tezza Music Bot works on a single merged commands for Music and Video
 
@@ -646,7 +646,7 @@ Tezza has a additional feature for non-admin users who want to use admin command
         )
     elif query.data == "tiana_musicd":
         query.message.edit_text(
-            text=""" *Here is the help for Extra Commands*:
+            text="""✗ *Here is the help for Extra Commands*:
 
 
 
