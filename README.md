@@ -59,7 +59,7 @@ Read [Docs](http://www.prince-botz.tk/2022/02/tiana-bot.html?m=1) for Detailed D
 <p><a href="https://heroku.com/deploy?template=https://github.com/muhammedalthaf174/Tezzatiana"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
 
 <h4>Click the button below to deploy Tiana Music Bot on Heroku!</h4>    
-<p><a href="https://heroku.com/deploy?template=https://github.com/muhammedalthaf174/tezza-vc"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p> 
+<p><a href="https://heroku.com/deploy?template=https://github.com/muhammedalthaf174/tezzavcbot"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p> 
 </details>
 
 <details>
