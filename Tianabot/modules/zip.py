@@ -5,9 +5,9 @@ import zipfile
 from telethon import types
 from telethon.tl import functions
 
-from ShuKurenaiXRoBot import TEMP_DOWNLOAD_DIRECTORY
-from ShuKurenaiXRoBot import telethn as client
-from ShuKurenaiXRoBot.events import register
+from Tianabot import TEMP_DOWNLOAD_DIRECTORY
+from Tianabot import telethn as client
+from Tianabot.events import register
 
 
 async def is_register_admin(chat, user):
