@@ -234,11 +234,8 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "ʜᴇʟʟᴏ! ᴛᴇᴢᴢᴀ ɪs ᴀʟɪᴠᴇ".format(
-                
-            ),
-            parse_mode=ParseMode.HTML,
-        )
+            "ʜᴇʟʟᴏ! ᴛᴇᴢᴢᴀ ɪs ᴀʟɪᴠᴇ"
+            )
 
 def error_handler(update, context):
     """Log the error and send a telegram message to notify the developer."""
