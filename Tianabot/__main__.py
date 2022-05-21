@@ -235,25 +235,8 @@ def start(update: Update, context: CallbackContext):
     else:
           first_name = update.effective_user.first_name
           update.effective_message.reply_photo(
-                TIANA_IMG, caption="""*Hᴇʟʟᴏ {} !*
-───────────────────
-× *I'ᴍ Aɴɪᴍᴇ-Tʜᴇᴍᴇ Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ*
-× *I'ᴍ Vᴇʀʏ Fᴀꜱᴛ Aɴᴅ Mᴏʀᴇ Eꜰꜰɪᴄɪᴇɴᴛ I Pʀᴏᴠɪᴅᴇ Aᴡᴇꜱᴏᴍᴇ Fᴇᴀᴛᴜʀᴇꜱ!*
-───────────────────
-× *Uᴘᴛɪᴍᴇ:* `{}`
-× `{}` *Uꜱᴇʀ, Aᴄʀᴏꜱꜱ* `{}` *Cʜᴀᴛꜱ.*
-───────────────────""".format(
-                    escape_markdown(first_name),
-                    escape_markdown(uptime),
-                    sql.num_users(),
-                    sql.num_chats()),
-                reply_markup=InlineKeyboardMarkup(
-                 [
-                  [InlineKeyboardButton(text="📇 Updates", url="https://t.me/tezzasupportchannel"), 
-                   InlineKeyboardButton(text="🫂 Support", url=f"https://t.me/{SUPPORT_CHAT}")]
-                 ]
-              ),
-                parse_mode=ParseMode.MARKDOWN,              
+                 caption="""*ʜᴇʟʟᴏ! ᴛᴇᴢᴢᴀ ɪs ᴀʟɪᴠᴇ*
+             
             )
 
 
