@@ -3,8 +3,8 @@ import random
 import glob
 from PIL import Image, ImageDraw, ImageFont
 from telethon.tl.types import InputMessagesFilterPhotos
-from ShuKurenaiXRoBot.events import register
-from ShuKurenaiXRoBot import SUPPORT_GROUP
+from Tianabot.events import register
+from Tianabot import SUPPORT_GROUP
 
 
 def mediainfo(media):
