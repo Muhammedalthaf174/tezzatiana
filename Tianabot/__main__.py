@@ -234,7 +234,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
           first_name = update.effective_user.first_name
-          update.effective_message.reply_photo(
+          update.effective_message.(
                  caption="""*ʜᴇʟʟᴏ! ᴛᴇᴢᴢᴀ ɪs ᴀʟɪᴠᴇ*
              
             )
