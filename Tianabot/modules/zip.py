@@ -5,9 +5,9 @@ import zipfile
 from telethon import types
 from telethon.tl import functions
 
-from Tianabot import TEMP_DOWNLOAD_DIRECTORY
-from Tianabot import telethn as client
-from Tianabot.events import register
+from ShuKurenaiXRoBot import TEMP_DOWNLOAD_DIRECTORY
+from ShuKurenaiXRoBot import telethn as client
+from ShuKurenaiXRoBot.events import register
 
 
 async def is_register_admin(chat, user):
@@ -43,7 +43,7 @@ async def _(event):
     if event.is_group:
         if not (await is_register_admin(event.input_chat, event.message.sender_id)):
             await event.reply(
-                "Hey, you are not admin. You can't use this command, But you can use in my PM 🙂"
+                "Hey, You are not admin. You can't use this command, But you can use in my pm 🙂"
             )
             return
 
@@ -125,7 +125,7 @@ async def _(event):
     if event.is_group:
         if not (await is_register_admin(event.input_chat, event.message.sender_id)):
             await event.reply(
-                "Hey, You are not admin. You can't use this command, But you can use in my PM 🙂"
+                "Hey, You are not admin. You can't use this command, But you can use in my pm 🙂"
             )
             return
 
@@ -209,10 +209,10 @@ def get_lst_of_files(input_directory, output_lst):
     return output_lst
 
 
-__help__ = """
+help = """
 Hey I can convert files here..
  ❍ /zip*:* reply to a telegram file to compress it in .zip format
  ❍ /unzip*:* reply to a telegram file to decompress it from the .zip format
 """
 
-__mod_name__ = "Zɪᴘᴘᴇʀ​"
+mod_name = "Zɪᴘᴘᴇʀ​"
