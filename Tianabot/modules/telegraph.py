@@ -1,15 +1,19 @@
+
 from Tianabot.events import register
-from Tianabot import telethn as tbot
+from Tianabot import telethn as Client
+from telethon import events, Button, types
+
 TMP_DOWNLOAD_DIRECTORY = "./"
-from telethon import events, Button, custom
-import os
+
 from PIL import Image
 from datetime import datetime
 from telegraph import Telegraph, upload_file, exceptions
+
+
 wibu = "Tianabot"
 telegraph = Telegraph()
-r = telegraph.create_account(short_name=shu)
-auth_url = r["auth_url"]
+data = telegraph.create_account(short_name=wibu)
+auth_url = data["auth_url"]
 
 
 @register(pattern="^/t(m|xt) ?(.*)")
