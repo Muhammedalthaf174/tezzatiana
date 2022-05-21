@@ -1,6 +1,3 @@
-# credits  @chsaiujwal @daisyxrobot
-# ported to masha @Mr_Dark_Prince
-
 import urllib.request
 
 from bs4 import BeautifulSoup
@@ -39,7 +36,7 @@ async def _(event):
     for match in result:
         Sed += match.get_text() + "\n\n"
     await event.reply(
-        f"<b><u>Match information gathered successful</b></u>\n\n\n<code>{Sed}</code>",
+        f"<b><u>🏏 Match information gathered successful 🏏</b></u>\n\n\n<code>{Sed}</code>",
         parse_mode="HTML",
     )
 
@@ -49,5 +46,4 @@ __help__ = """
 ╚ `/cs`*:* Latest live scores from cricinfo
 """
 
-__mod_name__ = "cricketscore"
-
+__mod_name__ = "ᴄʀɪᴄᴋᴇᴛsᴄᴏʀᴇ"
