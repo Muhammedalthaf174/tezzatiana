@@ -236,26 +236,8 @@ def start(update: Update, context: CallbackContext):
           first_name = update.effective_user.first_name
           update.effective_message.(
                  TIANA_IMG, caption="""*ʜᴇʟʟᴏ! ᴛᴇᴢᴢᴀ ɪs ᴀʟɪᴠᴇ*
-             ───────────────────
-× *I'ᴍ Aɴɪᴍᴇ-Tʜᴇᴍᴇ Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ*
-× *I'ᴍ Vᴇʀʏ Fᴀꜱᴛ Aɴᴅ Mᴏʀᴇ Eꜰꜰɪᴄɪᴇɴᴛ I Pʀᴏᴠɪᴅᴇ Aᴡᴇꜱᴏᴍᴇ Fᴇᴀᴛᴜʀᴇꜱ!*
-───────────────────
-× *Uᴘᴛɪᴍᴇ:* `{}`
-× `{}` *Uꜱᴇʀ, Aᴄʀᴏꜱꜱ* `{}` *Cʜᴀᴛꜱ.*
-───────────────────""".format(
-                    escape_markdown(first_name),
-                    escape_markdown(uptime),
-                    sql.num_users(),
-                    sql.num_chats()),
-                reply_markup=InlineKeyboardMarkup(
-                 [
-                  [InlineKeyboardButton(text="📄 Source", url="https://github.com/prince-botz/tianabot"), 
-                   InlineKeyboardButton(text="🫂 Support", url=f"https://t.me/{SUPPORT_CHAT}")]
-                 ]
-              ),
-                parse_mode=ParseMode.MARKDOWN,
-            )
-
+                 """       
+           )
 
 def error_handler(update, context):
     """Log the error and send a telegram message to notify the developer."""
