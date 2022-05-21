@@ -233,11 +233,12 @@ def start(update: Update, context: CallbackContext):
                 timeout=60,
             )
     else:
-          first_name = update.effective_user.first_name
-          update.effective_message.(
-                 TIANA_IMG, caption="""*ʜᴇʟʟᴏ! ᴛᴇᴢᴢᴀ ɪs ᴀʟɪᴠᴇ*
-                 """       
-           )
+        update.effective_message.reply_text(
+            "ʜᴇʟʟᴏ! ᴛᴇᴢᴢᴀ ɪs ᴀʟɪᴠᴇ".format(
+                
+            ),
+            parse_mode=ParseMode.HTML,
+        )
 
 def error_handler(update, context):
     """Log the error and send a telegram message to notify the developer."""
