@@ -53,16 +53,16 @@ async def is_administrator(user_id: int, message):
 async def rm_deletedacc(show):
     con = show.pattern_match.group(1).lower()
     del_u = 0
-    del_status = "**Group clean, 0 deleted accounts found.**"
+    del_status = "**Group clean, not found the deleted account.**"
     if con != "clean":
-        kontol = await show.reply("`Searching for deleted account to fu*k...`")
+        kontol = await show.reply("`Searching deleted account...`")
         async for user in show.client.iter_participants(show.chat_id):
             if user.deleted:
                 del_u += 1
                 await sleep(1)
         if del_u > 0:
             del_status = (
-                f"**Searching...** `{del_u}` **Deleted account/Zombie On this group,"
+                f"**Founding** `{del_u}` **Deleted account/Zombie On this group,"
                 "\nClean it with command** `/zombies clean`"
             )
         return await kontol.edit(del_status)
@@ -71,7 +71,7 @@ async def rm_deletedacc(show):
     creator = chat.creator
     if not admin and not creator:
         return await show.reply("**Sorry you're not admin!**")
-    memek = await show.reply("`Fu*king deleted accounts...`")
+    memek = await show.reply("`Deleting deleted account...`")
     del_u = 0
     del_a = 0
     async for user in telethn.iter_participants(show.chat_id):
@@ -96,10 +96,4 @@ async def rm_deletedacc(show):
         )
     await memek.edit(del_status)
 
-__help__ = """
-*Remove Deleted Accounts*
- ❍ /zombies *:* Starts searching for deleted accounts in the group.
- ❍ /zombies clean *:* Removes the deleted accounts from the group.
-"""
-
-__mod_name__ = "Zᴏᴍʙɪᴇ"
+__mod_name__ = "ᴢᴏᴍʙɪᴇ"
