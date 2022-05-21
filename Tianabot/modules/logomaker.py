@@ -1,10 +1,21 @@
 import os
+import io
+import requests
+import shutil 
 import random
+import re
 import glob
-from PIL import Image, ImageDraw, ImageFont
+import time
+
+from io import BytesIO
+from requests import get
 from telethon.tl.types import InputMessagesFilterPhotos
+
+from Tianabot import OWNER_ID
 from Tianabot.events import register
-from Tianabot import telethn as tbot, ubot2
+from Tianabot import telethn
+from PIL import Image, ImageDraw, ImageFont
+from Tianabot import SUPPORT_GROUP
 
 
 def mediainfo(media):
