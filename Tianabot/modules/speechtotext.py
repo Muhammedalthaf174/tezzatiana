@@ -10,9 +10,9 @@ from telethon.tl import functions
 from telethon.tl import types
 from telethon.tl.types import *
 
-from Tianabot import *
-from Tianabot.events import register
-from Tianabot import telethn as tbot
+from ShuKurenaiXRoBot import *
+from ShuKurenaiXRoBot.events import register
+from ShuKurenaiXRoBot import telethn as tbot
 
 
 async def is_register_admin(chat, user):
@@ -85,3 +85,5 @@ async def _(event):
             os.remove(required_file_name)
     else:
         await event.reply("Reply to a voice message, to get the text out of it.")
+
+__mod_name__ = "ᴛᴛs/sᴛᴛ"
