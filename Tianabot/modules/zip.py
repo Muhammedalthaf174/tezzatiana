@@ -43,7 +43,7 @@ async def _(event):
     if event.is_group:
         if not (await is_register_admin(event.input_chat, event.message.sender_id)):
             await event.reply(
-                "Hey, You are not admin. You can't use this command, But you can use in my pm 🙂"
+                "Hey, you are not admin. You can't use this command, But you can use in my PM 🙂"
             )
             return
 
@@ -125,7 +125,7 @@ async def _(event):
     if event.is_group:
         if not (await is_register_admin(event.input_chat, event.message.sender_id)):
             await event.reply(
-                "Hey, You are not admin. You can't use this command, But you can use in my pm 🙂"
+                "Hey, You are not admin. You can't use this command, But you can use in my PM 🙂"
             )
             return
 
@@ -209,10 +209,10 @@ def get_lst_of_files(input_directory, output_lst):
     return output_lst
 
 
-help = """
+__help__ = """
 Hey I can convert files here..
  ❍ /zip*:* reply to a telegram file to compress it in .zip format
  ❍ /unzip*:* reply to a telegram file to decompress it from the .zip format
 """
 
-mod_name = "Zɪᴘᴘᴇʀ​"
+__mod_name__ = "Zɪᴘᴘᴇʀ​"
