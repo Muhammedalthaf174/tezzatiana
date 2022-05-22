@@ -16,7 +16,7 @@ auth_url = r["auth_url"]
 async def _(event):
     if event.fwd_from:
         return
-    optional_title = event.pattern_match.group(2)
+    optional_title = event.pattern_match.group(1)
     if event.reply_to_msg_id:
         start = datetime.now()
         r_message = await event.get_reply_message()
